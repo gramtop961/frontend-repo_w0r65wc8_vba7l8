@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -13,6 +14,14 @@ export default {
         mona: ['Mona Sans', 'system-ui', 'sans-serif'],
         'ibm-plex': ['IBM Plex Sans', 'system-ui', 'sans-serif'],
         manrope: ['Manrope', 'system-ui', 'sans-serif'],
+        poppins: ['Poppins', 'Inter', 'system-ui', 'sans-serif'],
+        playfair: ['Playfair Display', 'serif'],
+        merriweather: ['Merriweather', 'serif']
+      },
+      colors: {
+        indigoDeep: '#1a1f4b',
+        turquoise: '#16c7c2',
+        amberWarm: '#f59e0b'
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
@@ -21,6 +30,7 @@ export default {
         'slide-up': 'slideUp 0.3s ease-out',
         'bounce-in': 'bounceIn 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55)',
         'spin-slow': 'spin 3s linear infinite',
+        'pulse-slow': 'pulse 3s ease-in-out infinite'
       },
       keyframes: {
         fadeIn: {
